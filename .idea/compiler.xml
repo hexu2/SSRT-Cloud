@@ -16,7 +16,11 @@
         <module name="ssrt-common-log" />
         <module name="ssrt-common-swagger" />
         <module name="ssrt-api-system" />
+        <module name="ssrt-visual-monitor" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ssrt-monitor" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
