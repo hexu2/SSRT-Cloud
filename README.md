@@ -124,7 +124,7 @@ To be provided
 
 -->
 
-##Other
+## Other Tool
 * Tools to generate banner 
 
 [taag](http://patorjk.com/software/taag) | 
