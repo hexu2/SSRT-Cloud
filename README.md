@@ -29,7 +29,7 @@ com.ssrt
 │       └── ssrt-api-system                          // 系统接口
 ├── ssrt-common          // 通用模块
 │       └── ssrt-common-core                         // 核心模块
-│       └── ssrt-common-datascope                    // 权限范围
+│       └── ssrt-common-datascope                    // 权限范围 
 │       └── ssrt-common-datasource                   // 多数据源
 │       └── ssrt-common-log                          // 日志记录
 │       └── ssrt-common-redis                        // 缓存服务

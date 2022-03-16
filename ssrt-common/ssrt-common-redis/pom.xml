@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>ssrt-common</artifactId>
+        <groupId>com.ssrt</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>ssrt-common-redis</artifactId>
+
+    <description>
+        ssrt-common-redis缓存服务
+    </description>
+
+    <dependencies>
+
+        <!-- SpringBoot Boot Redis -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
+        <!-- ssrt Common Core -->
+        <dependency>
+            <groupId>com.ssrt</groupId>
+            <artifactId>ssrt-common-core</artifactId>
+        </dependency>
+    </dependencies>
+</project>

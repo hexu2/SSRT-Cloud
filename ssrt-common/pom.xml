@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.ssrt</groupId>
+        <artifactId>ssrt</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <modules>
+        <module>ssrt-common-core</module> <!-- common module and 3rdparty jars -->
+        <module>ssrt-common-redis</module> <!-- common redis services -->
+        <module>ssrt-common-swagger</module>
+        <module>ssrt-common-datasource</module>
+<!--        <module>ssrt-api-system</module>-->
+        <module>ssrt-common-security</module>
+        <module>ssrt-common-log</module>
+        <module>ssrt-common-datascope</module>
+    </modules>
+
+    <artifactId>ssrt-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        ssrt-common 通用模块
+    </description>
+
+</project>

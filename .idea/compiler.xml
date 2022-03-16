@@ -6,7 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ssrt-common-redis" />
+        <module name="ssrt-common-security" />
+        <module name="ssrt-common-core" />
         <module name="ssrt-auth" />
+        <module name="ssrt-common-datascope" />
+        <module name="ssrt-common-datasource" />
+        <module name="ssrt-common-log" />
+        <module name="ssrt-common-swagger" />
+        <module name="ssrt-api-system" />
       </profile>
     </annotationProcessing>
   </component>
