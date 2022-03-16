@@ -1,23 +1,20 @@
 <p align="center">
 	<img alt="logo" src="https://oscimg.oschina.net/oscnet/up-b99b286755aef70355a7084753f89cdb7c9.png">
 </p>
-<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">ssrt v3.4.0</h1>
+<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">SSRT(Self-Service Report Tool) v3.4.0</h1>
 <h4 align="center">基于 Vue/Element UI 和 Spring Boot/Spring Cloud & Alibaba 前后端分离的分布式微服务架构</h4>
 <p align="center">
-	<a href="https://gitee.com/y_project/ssrt-Cloud/stargazers"><img src="https://gitee.com/y_project/ssrt-Cloud/badge/star.svg?theme=dark"></a>
-	<a href="https://gitee.com/y_project/ssrt-Cloud"><img src="https://img.shields.io/badge/ssrt-v3.4.0-brightgreen.svg"></a>
-	<a href="https://gitee.com/y_project/ssrt-Cloud/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg"></a>
+	<a href="https://github.com/hexu2/SSRT-Cloud"><img src="https://img.shields.io/badge/ssrt-v1.0.0-brightgreen.svg"></a>
 </p>
 
 ## 平台简介
 
-* 采用前后端分离的模式，微服务版本前端(基于 [ssrt-Vue](https://gitee.com/y_project/ssrt-Vue))。
+* 采用前后端分离的模式，前端使用vue
 * 后端采用Spring Boot、Spring Cloud & Alibaba。
 * 注册中心、配置中心选型Nacos，权限认证使用Redis。
 * 流量控制框架选型Sentinel，分布式事务选型Seata。
-* 提供了技术栈（[Vue3](https://v3.cn.vuejs.org) [Element Plus](https://element-plus.org/zh-CN) [Vite](https://cn.vitejs.dev)）版本[ssrt-Cloud-Vue3](https://github.com/yangzongzhuan/ssrt-Cloud-Vue3)，保持同步更新。
-* 如需不分离应用，请移步 [ssrt](https://gitee.com/y_project/ssrt)，如需分离应用，请移步 [ssrt-Vue](https://gitee.com/y_project/ssrt-Vue)
-
+* 技术栈（[Vue3](https://v3.cn.vuejs.org) | [Element Plus](https://element-plus.org/zh-CN) | [Vite](https://cn.vitejs.dev)）
+* Github 源码位置：[SSRT-Cloud](https://github.com/hexu2/SSRT-Cloud) 
 
 ## 系统模块
 
@@ -47,11 +44,14 @@ com.ssrt
 ~~~
 
 ## 架构图
-
+To be provided
+<!--
 <img src="https://oscimg.oschina.net/oscnet/up-82e9722ecb846786405a904bafcf19f73f3.png"/>
+-->
 
-## 内置功能
-
+## 功能
+To be provided
+<!-- 
 1.  用户管理：用户是系统操作者，该功能主要完成系统用户配置。
 2.  部门管理：配置系统组织机构（公司、部门、小组），树结构展现支持数据权限。
 3.  岗位管理：配置系统用户所属担任职务。
@@ -69,17 +69,18 @@ com.ssrt
 15. 服务监控：监视当前系统CPU、内存、磁盘、堆栈等相关信息。
 16. 在线构建器：拖动表单元素生成相应的HTML代码。
 17. 连接池监视：监视当前系统数据库连接池状态，可进行分析SQL找出系统性能瓶颈。
+-->
 
-## 在线体验
 
+## 体验
+1) Test account:
 - admin/admin123  
-- 陆陆续续收到一些打赏，为了更好的体验已用于演示服务器升级。谢谢各位小伙伴。
 
-演示地址：http://ssrt.vip  
-文档地址：http://doc.ssrt.vip
+2) Mail URLs:
 
 ## 演示图
-
+To be provided
+<!--
 <table>
     <tr>
         <td><img src="https://oscimg.oschina.net/oscnet/cd1f90be5f2684f4560c9519c0f2a232ee8.jpg"/></td>
@@ -119,3 +120,4 @@ com.ssrt
     </tr>
 </table>
 
+-->
