@@ -36,7 +36,7 @@ com.ssrt
 │       └── ssrt-common-security                     // 安全模块 Done
 │       └── ssrt-common-swagger                      // 系统接口 Done
 ├── ssrt-modules         // 业务模块
-│       └── ssrt-system                              // 系统模块 [9201]
+│       └── ssrt-system                              // 系统模块 [9201] Done
 │       └── ssrt-gen                                 // 代码生成 [9202]
 │       └── ssrt-job                                 // 定时任务 [9203]
 │       └── ssrt-file                                // 文件服务 [9300]
@@ -50,6 +50,39 @@ To be provided
 <!--
 <img src="https://oscimg.oschina.net/oscnet/up-82e9722ecb846786405a904bafcf19f73f3.png"/>
 -->
+
+## 技术选型
+1、系统环境
+* Java EE 8
+* Servlet 3.0
+* Apache Maven 3
+
+2、主框架
+* Spring Boot 2.3.x
+* Spring Cloud Hoxton.SR9
+* Spring Framework 5.2.x
+* Spring Security 5.2.x
+
+3、持久层
+* Apache MyBatis 3.5.x
+* Hibernate Validation 6.0.x
+* Alibaba Druid 1.2.x
+
+4、视图层
+* Vue 2.6.x
+* Axios 0.21.0
+* Element 2.14.x
+
+#主要特性
+* 完全响应式布局（支持电脑、平板、手机等所有主流设备）
+* 强大的一键生成功能（包括控制器、模型、视图、菜单等）
+* 支持多数据源，简单配置即可实现切换。
+* 支持按钮及数据权限，可自定义部门数据权限。
+* 对常用js插件进行二次封装，使js代码变得简洁，更加易维护
+* 完善的XSS防范及脚本过滤，彻底杜绝XSS攻击
+* Maven多项目依赖，模块及插件分项目，尽量松耦合，方便模块升级、增减模块。
+* 国际化支持，服务端及客户端支持
+* 完善的日志记录体系简单注解即可实现
 
 ## 功能
 To be provided
@@ -72,7 +105,6 @@ To be provided
 16. 在线构建器：拖动表单元素生成相应的HTML代码。
 17. 连接池监视：监视当前系统数据库连接池状态，可进行分析SQL找出系统性能瓶颈。
 -->
-
 
 ## 体验
 1) Test account:
