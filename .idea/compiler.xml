@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ssrt-common-redis" />
+        <module name="ssrt-gateway" />
         <module name="ssrt-common-security" />
         <module name="ssrt-common-core" />
         <module name="ssrt-auth" />

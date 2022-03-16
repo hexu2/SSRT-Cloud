@@ -13,5 +13,6 @@
     <file url="file://$PROJECT_DIR$/ssrt-common/ssrt-common-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssrt-common/ssrt-common-security" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssrt-common/ssrt-common-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssrt-gateway" charset="UTF-8" />
   </component>
 </project>
