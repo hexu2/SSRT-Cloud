@@ -3,7 +3,7 @@
 	<img alt="logo" src="https://oscimg.oschina.net/oscnet/up-b99b286755aef70355a7084753f89cdb7c9.png">
 </p>
 -->
-<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">SSRT(Self-Service Report Tool) v3.4.0</h1>
+<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">SSRT(Self-Service Report Tool) v1.0.0</h1>
 <h4 align="center">基于 Vue/Element UI 和 Spring Boot/Spring Cloud & Alibaba 前后端分离的分布式微服务架构</h4>
 <p align="center">
 	<a href="https://github.com/hexu2/SSRT-Cloud"><img src="https://img.shields.io/badge/ssrt-v1.0.0-brightgreen.svg"></a>
