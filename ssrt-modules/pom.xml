@@ -14,7 +14,6 @@
         <module>ssrt-gen</module>
         <module>ssrt-job</module>
         <module>ssrt-file</module>
-        <module>ssrt-system</module>
     </modules>
 
     <artifactId>ssrt-modules</artifactId>
