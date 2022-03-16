@@ -24,7 +24,7 @@
 com.ssrt     
 ├── ssrt-ui              // 前端框架 [80]
 ├── ssrt-gateway         // 网关模块 [8080]
-├── ssrt-auth            // 认证中心 [9200]
+├── ssrt-auth            // 认证中心 [9200]  | pending ssrt-common-security module
 ├── ssrt-api             // 接口模块
 │       └── ssrt-api-system                          // 系统接口
 ├── ssrt-common          // 通用模块
@@ -123,3 +123,10 @@ To be provided
 </table>
 
 -->
+
+##Other
+* Tools to generate banner 
+
+[taag](http://patorjk.com/software/taag) | 
+[ascii](http://www.network-science.de/ascii/) | 
+[img2txt](http://www.degraeve.com/img2txt.php)
