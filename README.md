@@ -26,7 +26,7 @@ com.ssrt
 ├── ssrt-gateway         // 网关模块 [8080] Done
 ├── ssrt-auth            // 认证中心 [9200] Done
 ├── ssrt-api             // 接口模块 Done
-│       └── ssrt-api-system                          // 系统接口
+│       └── ssrt-api-system                          // 系统接口 Done
 ├── ssrt-common          // 通用模块 Done
 │       └── ssrt-common-core                         // 核心模块 Done
 │       └── ssrt-common-datascope                    // 权限范围 Done
@@ -40,8 +40,8 @@ com.ssrt
 │       └── ssrt-gen                                 // 代码生成 [9202]
 │       └── ssrt-job                                 // 定时任务 [9203]
 │       └── ssrt-file                                // 文件服务 [9300]
-├── ssrt-visual          // 图形化管理模块
-│       └── ssrt-visual-monitor                      // 监控中心 [9100]
+├── ssrt-visual          // 图形化管理模块 Done
+│       └── ssrt-visual-monitor                      // 监控中心 [9100] Done
 ├──pom.xml                // 公共依赖
 ~~~
 

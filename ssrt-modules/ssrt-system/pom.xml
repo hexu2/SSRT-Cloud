@@ -3,18 +3,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>ssrt</artifactId>
+        <artifactId>ssrt-modules</artifactId>
         <groupId>com.ssrt</groupId>
         <version>1.0.0</version>
     </parent>
-
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ssrt</groupId>
-    <artifactId>ssrt-auth</artifactId>
+    <artifactId>ssrt-modules-system</artifactId>
 
     <description>
-        ssrt-auth authorization center | 认证授权中心
+        ssrt-modules-system系统模块
     </description>
 
     <dependencies>
@@ -37,22 +35,47 @@
             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
         </dependency>
 
-        <!-- SpringBoot Web -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
         <!-- SpringBoot Actuator -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-        <!-- ssrt Common Security-->
+        <!-- Swagger UI -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${swagger.fox.version}</version>
+        </dependency>
+
+        <!-- Mysql Connector -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <!-- ssrt Common DataSource -->
         <dependency>
             <groupId>com.ssrt</groupId>
-            <artifactId>ssrt-common-security</artifactId>
+            <artifactId>ssrt-common-datasource</artifactId>
+        </dependency>
+
+        <!-- ssrt Common DataScope -->
+        <dependency>
+            <groupId>com.ssrt</groupId>
+            <artifactId>ssrt-common-datascope</artifactId>
+        </dependency>
+
+        <!-- ssrt Common Log -->
+        <dependency>
+            <groupId>com.ssrt</groupId>
+            <artifactId>ssrt-common-log</artifactId>
+        </dependency>
+
+        <!-- ssrt Common Swagger -->
+        <dependency>
+            <groupId>com.ssrt</groupId>
+            <artifactId>ssrt-common-swagger</artifactId>
         </dependency>
 
     </dependencies>
@@ -63,7 +86,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${spring-boot-maven.version}</version>
+                <version>2.2.6.RELEASE</version>
                 <executions>
                     <execution>
                         <goals>
@@ -74,4 +97,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
