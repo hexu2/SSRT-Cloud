@@ -23,7 +23,7 @@
 ~~~
 com.ssrt     
 ├── ssrt-ui              // 前端框架 [80]
-├── ssrt-gateway         // 网关模块 [8080] 
+├── ssrt-gateway         // 网关模块 [8080] Done
 ├── ssrt-auth            // 认证中心 [9200] Done
 ├── ssrt-api             // 接口模块 Done
 │       └── ssrt-api-system                          // 系统接口
