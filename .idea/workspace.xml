@@ -2,35 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8869ae99-1550-4af4-9e60-f9c4e2d2bcfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/SSRTGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/config/CaptchaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/config/GatewayConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/config/KaptchaTextCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/config/RouterFunctionConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/config/SwaggerProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/config/properties/CaptchaProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/config/properties/IgnoreWhiteProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/config/properties/XssProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/filter/AuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/filter/BlackListUrlFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/filter/CacheRequestFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/filter/ValidateCodeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/filter/XssFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/handler/GatewayExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/handler/SentinelFallbackHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/handler/SwaggerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/handler/ValidateCodeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/service/ValidateCodeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/service/impl/ValidateCodeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-gateway/ssrt-gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-auth/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ssrt-auth/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/SSRTGatewayApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/config/CaptchaConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/config/GatewayConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/config/KaptchaTextCreator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/config/RouterFunctionConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/config/SwaggerProvider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/config/properties/CaptchaProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/config/properties/IgnoreWhiteProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/config/properties/XssProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/filter/AuthFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/filter/BlackListUrlFilter$Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/filter/BlackListUrlFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/filter/CacheRequestFilter$CacheRequestGatewayFilter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/filter/CacheRequestFilter$CacheRequestGatewayFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/filter/CacheRequestFilter$Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/filter/CacheRequestFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/filter/ValidateCodeFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/filter/XssFilter$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/filter/XssFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/handler/GatewayExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/handler/SentinelFallbackHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/handler/SwaggerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/handler/ValidateCodeHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/service/ValidateCodeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/com/ssrt/gateway/service/impl/ValidateCodeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-gateway/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,29 +67,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/config/properties/XssProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1" />
-          </provider>
+        <entry file="file://$PROJECT_DIR$/ssrt-gateway/target/classes/banner.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/filter/AuthFilter.java">
+        <entry file="file://$PROJECT_DIR$/ssrt-gateway/target/classes/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssrt-gateway/target/classes/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="233">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/config/RouterFunctionConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="105">
+                <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -103,23 +106,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/SSRTGatewayApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/config/SwaggerProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -137,7 +131,7 @@
         <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/resources/banner.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -227,7 +221,6 @@
         <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/src/main/resources/META-INF/spring.factories" />
         <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/src/main/java/com/ssrt/common/datascope/annotation/DataScope.java" />
         <option value="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/resources/META-INF/spring.factories" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-auth/pom.xml" />
@@ -237,6 +230,7 @@
         <option value="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/SSRTGatewayApplication.java" />
         <option value="$PROJECT_DIR$/ssrt-auth/src/main/resources/banner.txt" />
         <option value="$PROJECT_DIR$/ssrt-gateway/src/main/resources/banner.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -349,70 +343,6 @@
             <path>
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
               <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -420,120 +350,6 @@
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
               <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -622,7 +438,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647430521129</updated>
-      <workItem from="1647430522861" duration="12811000" />
+      <workItem from="1647430522861" duration="13033000" />
     </task>
     <task id="LOCAL-00001" summary="#SSRT: Project init">
       <created>1647431036203</created>
@@ -694,11 +510,18 @@
       <option name="project" value="LOCAL" />
       <updated>1647443436728</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="#SSRT: Add ssrt-gateway module">
+      <created>1647444665553</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647444665553</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12811000" />
+    <option name="totallyTimeSpent" value="13033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="25" width="1440" height="779" extended-state="0" />
@@ -723,7 +546,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15197569" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5349544" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -750,29 +573,10 @@
     <MESSAGE value="#SSRT: add ssrt-auth module" />
     <MESSAGE value="#SSRT: add ssrt-api,ssrt-auth,ssrt-common modules" />
     <MESSAGE value="#SSRT: update Dev progress to README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="#SSRT: update Dev progress to README.md" />
+    <MESSAGE value="#SSRT: Add ssrt-gateway module" />
+    <option name="LAST_COMMIT_MESSAGE" value="#SSRT: Add ssrt-gateway module" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-log/src/main/resources/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-log/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-log/src/main/java/com/ssrt/common/log/aspect/LogAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-log/src/main/java/com/ssrt/common/log/enums/BusinessStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -998,16 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="25" column="16" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1032,13 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1098,17 +885,47 @@
     <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/resources/banner.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/SSRTGatewayApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="150">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-gateway/target/classes/banner.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-gateway/target/classes/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-gateway/target/classes/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
