@@ -2,170 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8869ae99-1550-4af4-9e60-f9c4e2d2bcfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ssrt-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-api/ssrt-api-system/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/RemoteFileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/RemoteLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/RemoteUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/domain/SysDept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/domain/SysDictData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/domain/SysDictType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/domain/SysFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/domain/SysLogininfor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/domain/SysOperLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/domain/SysRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/domain/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/factory/RemoteFileFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/factory/RemoteLogFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/factory/RemoteUserFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/model/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-api/ssrt-api-system/ssrt-api-system.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-api/ssrt-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-auth/src/main/java/com/ssrt/auth/SSRTAuthApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-auth/src/main/java/com/ssrt/auth/controller/TokenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-auth/src/main/java/com/ssrt/auth/form/LoginBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-auth/src/main/java/com/ssrt/auth/form/RegisterBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-auth/src/main/java/com/ssrt/auth/service/SysLoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/annotation/Excel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/annotation/Excels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/constant/CacheConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/constant/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/constant/GenConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/constant/HttpStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/constant/ScheduleConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/constant/SecurityConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/constant/ServiceNameConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/constant/TokenConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/constant/UserConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/context/SecurityContextHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/domain/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/enums/UserStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/CaptchaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/CheckedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/DemoModeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/GlobalException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/InnerAuthException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/PreAuthorizeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/UtilException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/auth/NotLoginException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/auth/NotPermissionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/auth/NotRoleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/base/BaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/file/FileException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/file/FileNameLengthLimitExceededException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/file/FileSizeLimitExceededException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/file/InvalidExtensionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/job/TaskException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/user/CaptchaExpireException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/user/UserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/exception/user/UserPasswordNotMatchException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/text/CharsetKit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/text/Convert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/text/StrFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/ExceptionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/PageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/ReUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/ServletUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/SpringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/bean/BeanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/bean/BeanValidators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/file/FileTypeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/file/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/file/ImageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/file/MimeTypeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/html/EscapeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/html/HTMLFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/ip/IpUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/poi/ExcelHandlerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/poi/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/reflect/ReflectUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/sign/Base64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/sql/SqlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/uuid/IdUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/uuid/Seq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/utils/uuid/UUID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/web/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/web/domain/AjaxResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/web/domain/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/web/domain/TreeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/web/page/PageDomain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/web/page/TableDataInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/web/page/TableSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/xss/Xss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/xss/XssValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-core/ssrt-common-core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/src/main/java/com/ssrt/common/datascope/annotation/DataScope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/src/main/java/com/ssrt/common/datascope/aspect/DataScopeAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/ssrt-common-datascope.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-datasource/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-datasource/src/main/java/com/ssrt/common/datasource/annotation/Master.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-datasource/src/main/java/com/ssrt/common/datasource/annotation/Slave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-datasource/src/main/java/com/ssrt/common/datasource/env/ApplicationSeataInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-datasource/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-datasource/ssrt-common-datasource.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-log/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-log/src/main/java/com/ssrt/common/log/annotation/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-log/src/main/java/com/ssrt/common/log/aspect/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-log/src/main/java/com/ssrt/common/log/enums/BusinessStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-log/src/main/java/com/ssrt/common/log/enums/BusinessType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-log/src/main/java/com/ssrt/common/log/enums/OperatorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-log/src/main/java/com/ssrt/common/log/service/AsyncLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-log/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-log/ssrt-common-log.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-redis/src/main/java/com/ssrt/common/redis/configure/FastJson2JsonRedisSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-redis/src/main/java/com/ssrt/common/redis/configure/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-redis/src/main/java/com/ssrt/common/redis/service/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-redis/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-redis/ssrt-common-redis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/annotation/EnableCustomConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/annotation/EnableRyFeignClients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/annotation/InnerAuth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/annotation/Logical.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/annotation/RequiresLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/annotation/RequiresPermissions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/annotation/RequiresRoles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/aspect/InnerAuthAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/aspect/PreAuthorizeAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/auth/AuthLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/auth/AuthUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/config/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/feign/FeignAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/feign/FeignRequestInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/interceptor/HeaderInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/service/TokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/utils/DictUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/utils/SecurityUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-security/ssrt-common-security.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/src/main/java/com/ssrt/common/swagger/annotation/EnableCustomSwagger2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/src/main/java/com/ssrt/common/swagger/config/SwaggerAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/src/main/java/com/ssrt/common/swagger/config/SwaggerBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/src/main/java/com/ssrt/common/swagger/config/SwaggerProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/src/main/java/com/ssrt/common/swagger/config/SwaggerWebConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/ssrt-common-swagger.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssrt-common/ssrt-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-auth/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ssrt-auth/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-auth/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssrt-auth/src/main/resources/logback.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -192,77 +30,46 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-common/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/domain/SysUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="135">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/factory/RemoteFileFallbackFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="150">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/src/main/resources/META-INF/spring.factories">
+        <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/factory/RemoteLogFallbackFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/factory/RemoteUserFallbackFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/src/main/java/com/ssrt/common/datascope/aspect/DataScopeAspect.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/src/main/java/com/ssrt/common/datascope/annotation/DataScope.java">
+        <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/model/LoginUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/ssrt-common-datascope.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="241">
-                <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-api/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="40" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-log/src/main/java/com/ssrt/common/log/service/AsyncLogService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="-424">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -271,8 +78,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common.iml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/RemoteFileService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/RemoteLogService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/RemoteUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/resources/META-INF/spring.factories">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="189">
+                <caret line="36" column="65" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -340,7 +190,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-api/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-api/ssrt-api-system/pom.xml" />
-        <option value="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/resources/META-INF/spring.factories" />
         <option value="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/model/LoginUser.java" />
         <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/resources/META-INF/spring.factories" />
         <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/auth/AuthUtil.java" />
@@ -348,9 +197,10 @@
         <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-log/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-common/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/pom.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/src/main/resources/META-INF/spring.factories" />
         <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/src/main/java/com/ssrt/common/datascope/annotation/DataScope.java" />
+        <option value="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/resources/META-INF/spring.factories" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -455,47 +305,25 @@
             <path>
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-api" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-api-system" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-auth" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-api" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-api-system" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-auth" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common-datascope" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common-datascope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common-datascope" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-auth" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common-datascope" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-auth" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -504,94 +332,6 @@
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
               <item name="ssrt-common" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common-datascope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common-datascope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common-datascope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common-datascope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="datascope" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common-datascope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="datascope" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common-datascope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="datascope" type="462c0819:PsiDirectoryNode" />
-              <item name="aspect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common-datascope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-common-datascope" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -657,7 +397,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647430521129</updated>
-      <workItem from="1647430522861" duration="11345000" />
+      <workItem from="1647430522861" duration="11752000" />
     </task>
     <task id="LOCAL-00001" summary="#SSRT: Project init">
       <created>1647431036203</created>
@@ -708,11 +448,25 @@
       <option name="project" value="LOCAL" />
       <updated>1647435961042</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="#SSRT: add ssrt-api,ssrt-auth,ssrt-common modules">
+      <created>1647443267984</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1647443267984</updated>
+    </task>
+    <task id="LOCAL-00009" summary="#SSRT: add ssrt-api,ssrt-auth,ssrt-common modules">
+      <created>1647443321657</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1647443321657</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11345000" />
+    <option name="totallyTimeSpent" value="11752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="25" width="1440" height="779" extended-state="0" />
@@ -761,117 +515,10 @@
     <MESSAGE value="#SSRT: Project init" />
     <MESSAGE value="#SSRT: Updates README file" />
     <MESSAGE value="#SSRT: add ssrt-auth module" />
-    <option name="LAST_COMMIT_MESSAGE" value="#SSRT: add ssrt-auth module" />
+    <MESSAGE value="#SSRT: add ssrt-api,ssrt-auth,ssrt-common modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="#SSRT: add ssrt-api,ssrt-auth,ssrt-common modules" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/src/main/java/com/ssrt/common/swagger/config/SwaggerProperties.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/ssrt-common-swagger.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-redis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1375">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-redis/src/main/java/com/ssrt/common/redis/configure/FastJson2JsonRedisSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-redis/src/main/java/com/ssrt/common/redis/configure/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="22" column="57" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-redis/src/main/java/com/ssrt/common/redis/service/RedisService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/src/main/java/com/ssrt/common/swagger/annotation/EnableCustomSwagger2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/src/main/java/com/ssrt/common/swagger/config/SwaggerAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/src/main/java/com/ssrt/common/swagger/config/SwaggerBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/src/main/java/com/ssrt/common/swagger/config/SwaggerProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/src/main/java/com/ssrt/common/swagger/config/SwaggerWebConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/src/main/resources/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-datasource/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -931,23 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="247" column="37" selection-start-line="247" selection-start-column="37" selection-end-line="247" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/resources/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/model/LoginUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1099,16 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="241">
-            <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/ssrt-common-datascope.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1126,13 +746,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/src/main/java/com/ssrt/common/datascope/aspect/DataScopeAspect.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/src/main/java/com/ssrt/common/datascope/annotation/DataScope.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="135">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/src/main/java/com/ssrt/common/datascope/aspect/DataScopeAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/domain/SysDept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-158">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/domain/SysDictData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/domain/SysDictType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/domain/SysFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/domain/SysLogininfor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/domain/SysOperLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/domain/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/domain/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/factory/RemoteFileFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/factory/RemoteLogFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/factory/RemoteUserFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/model/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-424">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/RemoteFileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/RemoteLogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/RemoteUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/resources/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="189">
+            <caret line="36" column="65" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

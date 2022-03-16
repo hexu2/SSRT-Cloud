@@ -28,13 +28,13 @@ com.ssrt
 ├── ssrt-api             // 接口模块 Done
 │       └── ssrt-api-system                          // 系统接口
 ├── ssrt-common          // 通用模块 Done
-│       └── ssrt-common-core                         // 核心模块
-│       └── ssrt-common-datascope                    // 权限范围 
-│       └── ssrt-common-datasource                   // 多数据源
-│       └── ssrt-common-log                          // 日志记录
-│       └── ssrt-common-redis                        // 缓存服务
-│       └── ssrt-common-security                     // 安全模块
-│       └── ssrt-common-swagger                      // 系统接口
+│       └── ssrt-common-core                         // 核心模块 Done
+│       └── ssrt-common-datascope                    // 权限范围 Done
+│       └── ssrt-common-datasource                   // 多数据源 Done
+│       └── ssrt-common-log                          // 日志记录 Done
+│       └── ssrt-common-redis                        // 缓存服务 Done
+│       └── ssrt-common-security                     // 安全模块 Done
+│       └── ssrt-common-swagger                      // 系统接口 Done
 ├── ssrt-modules         // 业务模块
 │       └── ssrt-system                              // 系统模块 [9201]
 │       └── ssrt-gen                                 // 代码生成 [9202]
