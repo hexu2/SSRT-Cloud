@@ -23,11 +23,11 @@
 ~~~
 com.ssrt     
 ├── ssrt-ui              // 前端框架 [80]
-├── ssrt-gateway         // 网关模块 [8080]
-├── ssrt-auth            // 认证中心 [9200]  | pending ssrt-common-security module
-├── ssrt-api             // 接口模块
+├── ssrt-gateway         // 网关模块 [8080] 
+├── ssrt-auth            // 认证中心 [9200] Done
+├── ssrt-api             // 接口模块 Done
 │       └── ssrt-api-system                          // 系统接口
-├── ssrt-common          // 通用模块
+├── ssrt-common          // 通用模块 Done
 │       └── ssrt-common-core                         // 核心模块
 │       └── ssrt-common-datascope                    // 权限范围 
 │       └── ssrt-common-datasource                   // 多数据源
