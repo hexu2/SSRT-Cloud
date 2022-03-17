@@ -2,7 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8869ae99-1550-4af4-9e60-f9c4e2d2bcfc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-file/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/SSRTFileApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/config/MinioConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/config/ResourcesConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/controller/SysFileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/service/FastDfsSysFileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/service/ISysFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/service/LocalSysFileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/service/MinioSysFileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/utils/FileUploadUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-file/ssrt-file.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/SSRTGenApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/config/GenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/controller/GenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/domain/GenTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/domain/GenTableColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/mapper/GenTableColumnMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/mapper/GenTableMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/service/GenTableColumnServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/service/GenTableServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/service/IGenTableColumnService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/service/IGenTableService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/util/GenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/util/VelocityInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/util/VelocityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/mapper/generator/GenTableColumnMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/mapper/generator/GenTableMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/java/controller.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/java/domain.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/java/mapper.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/java/service.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/java/serviceImpl.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/java/sub-domain.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/js/api.js.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/sql/sql.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/vue/index-tree.vue.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/vue/index.vue.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/vue/v3/index-tree.vue.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/vue/v3/index.vue.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/vue/v3/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/xml/mapper.xml.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/ssrt-gen.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/SSRTJobApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/config/ScheduleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/controller/SysJobController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/controller/SysJobLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/domain/SysJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/domain/SysJobLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/mapper/SysJobLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/mapper/SysJobMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/service/ISysJobLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/service/ISysJobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/service/SysJobLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/service/SysJobServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/task/RyTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/util/AbstractQuartzJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/util/CronUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/util/JobInvokeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/util/QuartzDisallowConcurrentExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/util/QuartzJobExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/util/ScheduleUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/resources/mapper/job/SysJobLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/resources/mapper/job/SysJobMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/ssrt-job.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ruoyi-auth/error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ruoyi-auth/info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssrt-auth/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssrt-auth/src/main/resources/logback.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,6 +105,9 @@
     <ignored path="$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/target/" />
     <ignored path="$PROJECT_DIR$/ssrt-modules/target/" />
     <ignored path="$PROJECT_DIR$/ssrt-modules/ssrt-system/target/" />
+    <ignored path="$PROJECT_DIR$/ssrt-modules/ssrt-gen/target/" />
+    <ignored path="$PROJECT_DIR$/ssrt-modules/ssrt-job/target/" />
+    <ignored path="$PROJECT_DIR$/ssrt-modules/ssrt-file/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,97 +120,94 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/src/main/java/com/ssrt/common/swagger/config/SwaggerProperties.java">
+        <entry file="file://$PROJECT_DIR$/ssrt-modules/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="220" selection-start-line="220" selection-end-line="220" />
+            <state relative-caret-position="375">
+              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/annotation/EnableRyFeignClients.java">
+        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/config/MinioConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/config/CaptchaConfig.java">
+        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/config/ResourcesConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="150">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/resources/mapper/system/SysConfigMapper.xml">
+        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/controller/SysFileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+            <state relative-caret-position="150">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/java/com/ssrt/system/mapper/SysConfigMapper.java">
+        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/service/FastDfsSysFileServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/service/ISysFileService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-505">
-                <caret line="75" column="2" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="2" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/service/LocalSysFileServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            <state relative-caret-position="165">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/service/MinioSysFileServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/SSRTFileApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/resources/banner.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-modules/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="15" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/config/KaptchaTextCreator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="645">
+                <caret line="43" column="72" lean-forward="true" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -148,7 +230,6 @@
       <dir>$PROJECT_DIR$/ssrt-auth/src/main/java/com/ssrt/auth</dir>
       <dir>$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java</dir>
       <dir>$PROJECT_DIR$/ssrt-common/ssrt-common-redis</dir>
-      <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/ssrt-common/ssrt-common-swagger</dir>
       <dir>$PROJECT_DIR$/ssrt-common/ssrt-common-datasource</dir>
       <dir>$PROJECT_DIR$/ssrt-api</dir>
@@ -158,7 +239,12 @@
       <dir>$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/src/main/resources</dir>
       <dir>$PROJECT_DIR$/ssrt-visual</dir>
       <dir>$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/resources</dir>
+      <dir>$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources</dir>
+      <dir>$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/resources</dir>
+      <dir>$PROJECT_DIR$/ssrt-modules/ssrt-file</dir>
       <dir>$PROJECT_DIR$/ssrt-modules</dir>
+      <dir>$PROJECT_DIR$/ssrt-modules/ssrt-job</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -167,20 +253,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-log/src/main/java/com/ssrt/common/log/enums/OperatorType.java" />
-        <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-log/src/main/java/com/ssrt/common/log/service/AsyncLogService.java" />
-        <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/resources/META-INF/spring.factories" />
-        <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/web/page/PageDomain.java" />
-        <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/annotation/Excel.java" />
-        <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/annotation/Excels.java" />
-        <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/constant/CacheConstants.java" />
-        <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-redis/src/main/resources/META-INF/spring.factories" />
-        <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-redis/src/main/java/com/ssrt/common/redis/service/RedisService.java" />
-        <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-redis/pom.xml" />
-        <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-core/pom.xml" />
-        <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/src/main/java/com/ssrt/common/swagger/annotation/EnableCustomSwagger2.java" />
-        <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/src/main/java/com/ssrt/common/swagger/config/SwaggerProperties.java" />
-        <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-swagger/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-datasource/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-datasource/src/main/java/com/ssrt/common/datasource/env/ApplicationSeataInitializer.java" />
         <option value="$PROJECT_DIR$/ssrt-api/pom.xml" />
@@ -208,15 +280,29 @@
         <option value="$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/src/main/java/com/ssrt/modules/monitor/RuoYiMonitorApplication.java" />
         <option value="$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/src/main/java/com/ssrt/modules/monitor/SSRTMonitorApplication.java" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-system/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-auth/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/pom.xml" />
-        <option value="$PROJECT_DIR$/ssrt-modules/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/java/com/ssrt/system/domain/vo/MetaVo.java" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/java/com/ssrt/system/RuoYiSystemApplication.java" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/java/com/ssrt/system/SSRTSystemApplication.java" />
+        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-gen/pom.xml" />
+        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/vue/v3/readme.txt" />
+        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/util/GenUtils.java" />
+        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/RuoYiGenApplication.java" />
+        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/SSRTGenApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/resources/mapper/job/SysJobMapper.xml" />
+        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/RuoYiJobApplication.java" />
+        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/SSRTJobApplication.java" />
+        <option value="$PROJECT_DIR$/ssrt-modules/pom.xml" />
+        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-file/pom.xml" />
+        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/utils/FileUploadUtils.java" />
+        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/RuoYiFileApplication.java" />
+        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/SSRTFileApplication.java" />
+        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-job/pom.xml" />
+        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/config/ScheduleConfig.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -231,6 +317,7 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -326,9 +413,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1955" />
+    <option name="y" value="-537" />
+    <option name="width" value="1841" />
+    <option name="height" value="1180" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -346,25 +435,120 @@
             <path>
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-file" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-file" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-file" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-file" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-file" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-file" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-file" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-file" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-file" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-file" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -373,6 +557,137 @@
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
               <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -391,7 +706,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -401,11 +716,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/java" />
-      <recent name="$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/resources" />
-      <recent name="$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/src/main/java" />
-      <recent name="$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/src/main/resources" />
-      <recent name="$PROJECT_DIR$/ssrt-gateway/src/main/java" />
+      <recent name="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java" />
+      <recent name="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java" />
+      <recent name="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/logo" />
@@ -451,6 +766,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SSRTGenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ssrt-gen" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ssrt.gen.SSRTGenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSRTJobApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ssrt-job" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ssrt.job.SSRTJobApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SSRTMonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ssrt-visual-monitor" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ssrt.modules.monitor.SSRTMonitorApplication" />
@@ -488,7 +817,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647430521129</updated>
-      <workItem from="1647430522861" duration="20436000" />
+      <workItem from="1647430522861" duration="24878000" />
     </task>
     <task id="LOCAL-00001" summary="#SSRT: Project init">
       <created>1647431036203</created>
@@ -623,14 +952,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647450433608</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="#SSRT: add to do list to README.md">
+      <created>1647453413926</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1647453413926</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20436000" />
+    <option name="totallyTimeSpent" value="24878000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-1955" y="-537" width="1841" height="1180" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -639,10 +975,10 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info id="simpleUML" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3211731" />
+      <window_info id="simpleUML" weight="0.32962757" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2495831" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.39281288" />
+      <window_info anchor="bottom" id="Run Dashboard" weight="0.299339" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -658,7 +994,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" visible="true" weight="0.05364807" />
+      <window_info anchor="right" id="Maven" weight="0.041689828" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Database" />
@@ -670,6 +1006,44 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="simpleUML" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.2495831" />
+      <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run Dashboard" order="8" visible="true" weight="0.299339" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.5349544" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Maven" order="0" visible="true" weight="0.041689828" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Redis Servers" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -689,228 +1063,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="#SSRT: add to do list to README.md" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ssrt-auth/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/config/properties/XssProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/filter/AuthFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/config/SwaggerProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/config/RouterFunctionConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-auth/src/main/java/com/ssrt/auth/SSRTAuthApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="19" selection-start-line="19" selection-end-line="27" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-auth/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-gateway/target/classes/banner.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-gateway/target/classes/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-gateway/target/classes/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/ruoyi-auth/error.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/ruoyi-auth/info.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/ssrt-gateway/error.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/ssrt-gateway/info.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="101" column="49" selection-start-line="101" selection-start-column="49" selection-end-line="101" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-visual/ssrt-monitor/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-477" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/src/main/java/com/ssrt/modules/monitor/SSRTMonitorApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/src/main/java/com/ssrt/modules/monitor/config/WebSecurityConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="94" column="47" selection-start-line="94" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-auth/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="65" column="63" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-visual/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/resources/mapper/system/SysDeptMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/resources/mapper/system/SysMenuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/java/com/ssrt/system/domain/vo/MetaVo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/java/com/ssrt/system/SSRTSystemApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/SSRTGatewayApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/constant/CacheConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/constant/GenConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-core/src/main/java/com/ssrt/common/core/constant/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153">
@@ -991,34 +1143,243 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/mapper/generator/GenTableMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/mapper/generator/GenTableColumnMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/java/controller.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-400" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/js/api.js.vm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/vue/v3/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/util/GenUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/SSRTGenApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/controller/GenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-job/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/resources/mapper/job/SysJobMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/task/RyTask.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="250" column="37" selection-start-line="250" selection-start-column="37" selection-end-line="250" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/java/com/ssrt/system/SSRTSystemApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" selection-start-line="21" selection-end-line="29" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/util/AbstractQuartzJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/utils/FileUploadUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/SSRTJobApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="28" selection-start-line="22" selection-end-line="30" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-job/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-186">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/config/ScheduleConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ssrt-modules/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="375">
+          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/config/MinioConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/config/ResourcesConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/controller/SysFileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/service/FastDfsSysFileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/service/ISysFileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/service/LocalSysFileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/service/MinioSysFileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/SSRTFileApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-505">
-            <caret line="75" column="2" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="2" />
+          <first_editor relative-caret-position="645">
+            <caret line="43" column="72" lean-forward="true" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
         </state>
       </provider>
     </entry>

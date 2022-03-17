@@ -27,7 +27,7 @@ com.ssrt
 ├── ssrt-auth            // 认证中心 [9200] Done
 ├── ssrt-api             // 接口模块 Done
 │       └── ssrt-api-system                          // 系统接口 Done
-├── ssrt-common          // 通用模块 Done
+├── ssrt-common          // 通用模块 Done              
 │       └── ssrt-common-core                         // 核心模块 Done
 │       └── ssrt-common-datascope                    // 权限范围 Done
 │       └── ssrt-common-datasource                   // 多数据源 Done
@@ -37,11 +37,11 @@ com.ssrt
 │       └── ssrt-common-swagger                      // 系统接口 Done
 ├── ssrt-modules         // 业务模块
 │       └── ssrt-system                              // 系统模块 [9201] Done
-│       └── ssrt-gen                                 // 代码生成 [9202]
-│       └── ssrt-job                                 // 定时任务 [9203]
-│       └── ssrt-file                                // 文件服务 [9300]
-├── ssrt-visual          // 图形化管理模块 Done
-│       └── ssrt-visual-monitor                      // 监控中心 [9100] Done
+│       └── ssrt-gen                                 // 代码生成 [9202] Done
+│       └── ssrt-job                                 // 定时任务 [9203] Done
+│       └── ssrt-file                                // 文件服务 [9300] Done
+├── ssrt-visual          // 图形化管理模块 Done        
+│       └── ssrt-visual-monitor                      // 监控中心 [9100] 
 ├──pom.xml                // 公共依赖
 ~~~
 

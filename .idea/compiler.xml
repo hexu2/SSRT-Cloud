@@ -6,18 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ssrt-common-redis" />
-        <module name="ssrt-gateway" />
-        <module name="ssrt-common-security" />
+        <module name="ssrt-common-swagger" />
+        <module name="ssrt-visual-monitor" />
+        <module name="ssrt-gen" />
         <module name="ssrt-common-core" />
         <module name="ssrt-auth" />
         <module name="ssrt-common-datascope" />
-        <module name="ssrt-common-datasource" />
-        <module name="ssrt-common-log" />
-        <module name="ssrt-common-swagger" />
-        <module name="ssrt-api-system" />
-        <module name="ssrt-visual-monitor" />
         <module name="ssrt-system" />
+        <module name="ssrt-gateway" />
+        <module name="ssrt-job" />
+        <module name="ssrt-api-system" />
+        <module name="ssrt-common-log" />
+        <module name="ssrt-common-datasource" />
+        <module name="ssrt-file" />
+        <module name="ssrt-common-security" />
+        <module name="ssrt-common-redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
