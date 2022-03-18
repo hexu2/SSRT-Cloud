@@ -169,3 +169,36 @@ ssrt-modules
         <module>ssrt-gen</module>
         <module>ssrt-job</module>
         <module>ssrt-file</module>
+        
+## 后端运行
+
+
+## Nacos for mac setup steps
+
+https://blog.csdn.net/W_317/article/details/110260118?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_aa&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_aa
+
+* https://nacos.io/zh-cn/
+* Download stable release version from: https://github.com/alibaba/nacos/releases?page=1
+
+
+````````
+startup:
+sh /Users/hexu/InstallSofeWare/nacos/bin/startup.sh
+
+stop:
+sh /Users/hexu/InstallSofeWare/nacos/bin/shutdown.sh
+
+-rwxr-xr-x@ 1 hexu  staff   951  3 30  2021 shutdown.sh
+-rwxr-xr-x@ 1 hexu  staff   954  3 30  2021 shutdown.cmd
+-rwxr-xr-x@ 1 hexu  staff  5136 12  8 20:22 startup.sh
+-rwxr-xr-x@ 1 hexu  staff  3368 12  8 20:22 startup.cmd
+drwxr-xr-x  3 hexu  staff    96  3 18 22:15 work
+drwxr-xr-x  3 hexu  staff    96  3 18 22:15 logs
+-rw-r--r--  1 hexu  staff   750  3 18 22:16 derby.log
+hexudeMacBook-Air:bin hexu$ 
+
+````````
+
+
+
+

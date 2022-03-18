@@ -1,293 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8869ae99-1550-4af4-9e60-f9c4e2d2bcfc" name="Default Changelist" comment="#SSRT: add ssrt-ui mmodule">
+    <list default="true" id="8869ae99-1550-4af4-9e60-f9c4e2d2bcfc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/ssrt_cloud_20210908.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/ssrt_config_20220114.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/ssrt_quartz.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/ssrt_seata_20210128.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/~$RT_Digram.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/.env.development" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/.env.production" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/.env.staging" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/bin/build.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/bin/package.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/bin/run-web.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/build/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/public/html/ie.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/api/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/api/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/api/monitor/job.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/api/monitor/jobLog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/api/monitor/online.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/api/system/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/api/system/dept.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/api/system/dict/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/api/system/dict/type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/api/system/logininfor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/api/system/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/api/system/notice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/api/system/operlog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/api/system/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/api/system/role.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/api/system/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/api/tool/gen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/401_images/401.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/404_images/404.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/404_images/404_cloud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/404.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/bug.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/build.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/button.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/cascader.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/chart.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/checkbox.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/client.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/clipboard.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/code.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/color.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/component.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/dashboard.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/date-range.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/date.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/dict.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/documentation.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/download.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/drag.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/druid.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/edit.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/education.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/email.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/example.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/excel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/exit-fullscreen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/eye-open.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/eye.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/form.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/fullscreen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/github.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/guide.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/input.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/international.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/job.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/language.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/link.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/list.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/lock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/log.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/logininfor.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/message.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/money.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/monitor.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/nacos.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/nested.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/number.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/online.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/password.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/pdf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/people.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/peoples.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/phone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/post.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/qq.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/question.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/radio.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/rate.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/row.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/search.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/select.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/sentinel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/server.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/shopping.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/size.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/skill.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/slider.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/star.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/swagger.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/switch.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/system.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/tab.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/table.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/textarea.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/theme.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/time-range.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/time.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/tool.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/tree-table.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/tree.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/upload.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/user.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/validCode.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/wechat.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svg/zip.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/icons/svgo.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/images/dark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/images/light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/images/login-background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/images/profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/logo/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/styles/btn.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/styles/element-ui.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/styles/element-variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/styles/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/styles/mixin.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/styles/sidebar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/styles/ssrt.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/styles/transition.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/assets/styles/variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/Breadcrumb/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/Crontab/day.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/Crontab/hour.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/Crontab/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/Crontab/min.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/Crontab/month.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/Crontab/result.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/Crontab/second.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/Crontab/week.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/Crontab/year.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/DictData/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/DictTag/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/Editor/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/FileUpload/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/Hamburger/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/HeaderSearch/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/IconSelect/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/IconSelect/requireIcons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/ImagePreview/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/ImageUpload/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/Pagination/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/PanThumb/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/ParentView/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/RightPanel/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/RightToolbar/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/SSRT/Doc/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/SSRT/Git/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/Screenfull/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/SizeSelect/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/SvgIcon/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/ThemePicker/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/TopNav/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/components/iFrame/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/directive/dialog/drag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/directive/dialog/dragHeight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/directive/dialog/dragWidth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/directive/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/directive/module/clipboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/directive/permission/hasPermi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/directive/permission/hasRole.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/layout/components/AppMain.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/layout/components/InnerLink/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/layout/components/Navbar.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/layout/components/Settings/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/layout/components/Sidebar/FixiOSBug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/layout/components/Sidebar/Item.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/layout/components/Sidebar/Link.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/layout/components/Sidebar/Logo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/layout/components/Sidebar/SidebarItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/layout/components/Sidebar/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/layout/components/TagsView/ScrollPane.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/layout/components/TagsView/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/layout/components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/layout/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/layout/mixin/ResizeHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/permission.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/plugins/auth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/plugins/cache.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/plugins/download.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/plugins/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/plugins/modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/plugins/tab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/settings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/store/getters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/store/modules/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/store/modules/permission.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/store/modules/settings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/store/modules/tagsView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/store/modules/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/auth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/dict/Dict.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/dict/DictConverter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/dict/DictData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/dict/DictMeta.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/dict/DictOptions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/dict/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/errorCode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/generator/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/generator/css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/generator/drawingDefault.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/generator/html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/generator/icon.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/generator/js.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/generator/render.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/jsencrypt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/permission.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/request.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/scroll-to.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/ssrt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/utils/validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/components/icons/element-icons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/components/icons/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/components/icons/svg-icons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/dashboard/BarChart.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/dashboard/LineChart.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/dashboard/PanelGroup.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/dashboard/PieChart.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/dashboard/RaddarChart.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/dashboard/mixins/resize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/error/401.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/error/404.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/index_v1.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/login.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/monitor/job/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/monitor/job/log.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/monitor/online/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/redirect.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/register.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/system/config/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/system/dept/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/system/dict/data.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/system/dict/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/system/logininfor/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/system/menu/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/system/notice/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/system/operlog/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/system/post/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/system/role/authUser.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/system/role/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/system/role/selectUser.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/system/user/authRole.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/system/user/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/system/user/profile/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/system/user/profile/resetPwd.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/system/user/profile/userAvatar.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/system/user/profile/userInfo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/tool/build/CodeTypeDialog.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/tool/build/DraggableItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/tool/build/IconsDialog.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/tool/build/RightPanel.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/tool/build/TreeNodeDialog.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/tool/build/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/tool/gen/basicInfoForm.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/tool/gen/editTable.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/tool/gen/genInfoForm.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/tool/gen/importTable.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/src/views/tool/gen/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssrt-ui/vue.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -317,8 +39,35 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@Mysql8_local_root" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="e1864f3d-2e63-47f9-baab-6a10e148ed0e" />
+    </checked>
+    <expanded>
+      <node key="e1864f3d-2e63-47f9-baab-6a10e148ed0e" />
+    </expanded>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -331,25 +80,71 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="300">
-                <caret line="20" selection-start-line="20" selection-end-line="45" selection-end-column="3" />
+              <first_editor relative-caret-position="564">
+                <caret line="202" selection-start-line="202" selection-end-line="202" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="258" column="67" selection-start-line="258" selection-start-column="67" selection-end-line="258" selection-end-column="67" />
+            <state relative-caret-position="87">
+              <caret line="260" column="19" selection-start-line="260" selection-start-column="19" selection-end-line="260" selection-end-column="19" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/ssrt_quartz.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/ssrt_seata_20210128.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-475">
+              <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e1864f3d-2e63-47f9-baab-6a10e148ed0e/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/ssrt_cloud_20210908.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-167">
+              <caret line="173" column="64" selection-start-line="173" selection-start-column="59" selection-end-line="173" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/ssrt_config_20220114.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2467">
+              <caret line="12" selection-start-line="12" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -361,18 +156,25 @@
       <find>org.springframework.boot.context.properties.ConfigurationProperties</find>
       <find>project.artifactId</find>
       <find>ssrt</find>
-      <find>ruoyi</find>
       <find>Copyright (c) 2019 ruoyi</find>
       <find>@/utils/ruoyi</find>
       <find>https://gitee.com/y_project/RuoYi-Cloud</find>
       <find>http://doc.ruoyi.vip/ruoyi-cloud</find>
+      <find>ry</find>
+      <find>ry-seata</find>
+      <find>ssrt-config</find>
+      <find>ry-config</find>
+      <find>ruoyi</find>
     </findStrings>
     <replaceStrings>
-      <replace>ssrt</replace>
       <replace>Copyright (c) 2022 ssrt</replace>
       <replace>@/utils/ssrt</replace>
       <replace>https://github.com/hexu2/SSRT-Cloud.git</replace>
       <replace>https://github.com/hexu2/SSRT-Cloud</replace>
+      <replace>ssrt-seata</replace>
+      <replace>ssrt-config</replace>
+      <replace>ssrt-quartz</replace>
+      <replace>ssrt</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/ssrt-auth/src/main/java/com/ssrt/auth</dir>
@@ -402,10 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ssrt-api/ssrt-api-system/pom.xml" />
-        <option value="$PROJECT_DIR$/ssrt-api/ssrt-api-system/src/main/java/com/ssrt/system/api/model/LoginUser.java" />
-        <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/resources/META-INF/spring.factories" />
-        <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-security/src/main/java/com/ssrt/common/security/auth/AuthUtil.java" />
         <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-security/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-log/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-common/pom.xml" />
@@ -451,8 +249,12 @@
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/config/ScheduleConfig.java" />
         <option value="$PROJECT_DIR$/ssrt-ui/src/api/system/user.js" />
         <option value="$PROJECT_DIR$/ssrt-ui/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ssrt-ui/src/api/menu.js" />
+        <option value="$PROJECT_DIR$/sql/ssrt_seata_20210128.sql" />
+        <option value="$PROJECT_DIR$/sql/ssrt_20210908.sql" />
+        <option value="$PROJECT_DIR$/sql/ssrt_quartz.sql" />
+        <option value="$PROJECT_DIR$/sql/ssrt_config_20220114.sql" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -563,10 +365,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2387" />
-    <option name="y" value="-433" />
+    <option name="x" value="108" />
+    <option name="y" value="25" />
     <option name="width" value="2003" />
-    <option name="height" value="1388" />
+    <option name="height" value="779" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -574,7 +376,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -582,14 +384,46 @@
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -609,16 +443,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/logo" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java" />
       <recent name="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/resources" />
       <recent name="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/resources" />
       <recent name="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/logo" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -712,7 +546,8 @@
       <option name="presentableId" value="Default" />
       <updated>1647430521129</updated>
       <workItem from="1647430522861" duration="30564000" />
-      <workItem from="1647523604260" duration="149000" />
+      <workItem from="1647523604260" duration="1622000" />
+      <workItem from="1647530539409" duration="4486000" />
     </task>
     <task id="LOCAL-00001" summary="#SSRT: Project init">
       <created>1647431036203</created>
@@ -868,17 +703,24 @@
       <option name="project" value="LOCAL" />
       <updated>1647519472121</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="#SSRT: remove ssrt-ui module from cloud repos">
+      <created>1647523961991</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1647523961992</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30728000" />
+    <option name="totallyTimeSpent" value="36672000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3840" y="-847" width="3840" height="2160" extended-state="0" />
+    <frame x="108" y="25" width="2003" height="779" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11348078" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2218256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -901,7 +743,7 @@
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.16884373" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.18541034" />
       <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.299339" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -910,7 +752,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Redis Servers" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.015298317" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
@@ -971,51 +813,10 @@
     <MESSAGE value="#SSRT: add to do list to README.md" />
     <MESSAGE value="#SSRT: add ssrt-file,ssrt-gen,ssrt-job modules" />
     <MESSAGE value="#SSRT: add ssrt-ui mmodule" />
-    <option name="LAST_COMMIT_MESSAGE" value="#SSRT: add ssrt-ui mmodule" />
+    <MESSAGE value="#SSRT: remove ssrt-ui module from cloud repos" />
+    <option name="LAST_COMMIT_MESSAGE" value="#SSRT: remove ssrt-ui module from cloud repos" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/config/KaptchaTextCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/config/CaptchaConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/resources/mapper/system/SysConfigMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/java/com/ssrt/system/mapper/SysConfigMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1216,6 +1017,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-ui/bin/build.bat" />
+    <entry file="file://$PROJECT_DIR$/ssrt-ui/bin/package.bat" />
+    <entry file="file://$PROJECT_DIR$/ssrt-ui/bin/run-web.bat" />
+    <entry file="file://$PROJECT_DIR$/ssrt-ui/build/index.js" />
+    <entry file="file://$PROJECT_DIR$/ssrt-ui/src/api/system/user.js" />
+    <entry file="file://$PROJECT_DIR$/ssrt-ui/README.md" />
+    <entry file="file://$PROJECT_DIR$/ssrt-ui/src/api/menu.js" />
     <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/SSRTFileApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1223,59 +1031,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="260" column="19" selection-start-line="260" selection-start-column="19" selection-end-line="260" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e1864f3d-2e63-47f9-baab-6a10e148ed0e/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/ssrt_seata_20210128.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-475">
+          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/ssrt_quartz.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/ssrt_cloud_20210908.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167">
+          <caret line="173" column="64" selection-start-line="173" selection-start-column="59" selection-end-line="173" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/ssrt_config_20220114.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2467">
+          <caret line="12" selection-start-line="12" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="300">
-            <caret line="20" selection-start-line="20" selection-end-line="45" selection-end-column="3" />
+          <first_editor relative-caret-position="564">
+            <caret line="202" selection-start-line="202" selection-end-line="202" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-ui/bin/build.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-ui/bin/package.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-ui/bin/run-web.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-ui/build/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-ui/src/api/system/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-ui/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="219">
-            <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-ui/src/api/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="258" column="67" selection-start-line="258" selection-start-column="67" selection-end-line="258" selection-end-column="67" />
         </state>
       </provider>
     </entry>
