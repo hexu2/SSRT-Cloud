@@ -175,19 +175,26 @@ ssrt-modules
 
 ## Nacos for mac setup steps
 
-https://blog.csdn.net/W_317/article/details/110260118?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_aa&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_aa
-
-* https://nacos.io/zh-cn/
-* Download stable release version from: https://github.com/alibaba/nacos/releases?page=1
+* [Nacos websie](https://nacos.io/zh-cn/)
+* [Download stable release version](https://github.com/alibaba/nacos/releases?page=1)
 
 
 ````````
 startup:
-sh /Users/hexu/InstallSofeWare/nacos/bin/startup.sh
+sh /Users/hexu/InstallSofeWare/nacos/bin/startup.sh -m standalone
 
 stop:
 sh /Users/hexu/InstallSofeWare/nacos/bin/shutdown.sh
 
+URL: http://localhost:8848/nacos
+username/password2: ssrt/ssrt
+username/password2: nacos/nacos
+
+
+hexudeMacBook-Air:bin hexu$ pwd
+/Users/hexu/InstallSofeWare/nacos/bin
+hexudeMacBook-Air:bin hexu$ ls -ltr
+total 48
 -rwxr-xr-x@ 1 hexu  staff   951  3 30  2021 shutdown.sh
 -rwxr-xr-x@ 1 hexu  staff   954  3 30  2021 shutdown.cmd
 -rwxr-xr-x@ 1 hexu  staff  5136 12  8 20:22 startup.sh
@@ -198,6 +205,7 @@ drwxr-xr-x  3 hexu  staff    96  3 18 22:15 logs
 hexudeMacBook-Air:bin hexu$ 
 
 ````````
+
 
 
 

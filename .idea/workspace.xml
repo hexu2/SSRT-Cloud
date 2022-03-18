@@ -2,14 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8869ae99-1550-4af4-9e60-f9c4e2d2bcfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/ssrt_cloud_20210908.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/ssrt_config_20220114.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/ssrt_quartz.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/ssrt_seata_20210128.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/copy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/mysql/db/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/mysql/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nacos/conf/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nacos/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nginx/conf/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nginx/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nginx/html/dist/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/redis/conf/redis.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/redis/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/ruoyi/auth/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/ruoyi/auth/jar/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/ruoyi/gateway/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/ruoyi/gateway/jar/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/ruoyi/modules/file/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/ruoyi/modules/file/jar/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/ruoyi/modules/gen/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/ruoyi/modules/gen/jar/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/ruoyi/modules/job/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/ruoyi/modules/job/jar/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/ruoyi/modules/system/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/ruoyi/modules/system/jar/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/ruoyi/visual/monitor/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/ruoyi/visual/monitor/jar/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ssrt-gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/ssrt-gateway/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ssrt-gateway/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/ssrt-gateway/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssrt-modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssrt-modules/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssrt-modules/ssrt-file/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-file/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-gen/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssrt-modules/ssrt-job/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-job/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssrt-modules/ssrt-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-system/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,21 +100,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/SSRTFileApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="564">
-                <caret line="202" selection-start-line="202" selection-end-line="202" />
+              <first_editor relative-caret-position="256">
+                <caret line="177" column="41" lean-forward="true" selection-start-line="177" selection-start-column="41" selection-end-line="177" selection-end-column="41" />
               </first_editor>
               <second_editor />
             </state>
@@ -93,68 +113,84 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-core/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="260" column="19" selection-start-line="260" selection-start-column="19" selection-end-line="260" selection-end-column="19" />
+            <state relative-caret-position="-146">
+              <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/ssrt_quartz.sql">
+        <entry file="file://$PROJECT_DIR$/ssrt-auth/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="604">
+              <caret line="65" column="56" selection-start-line="65" selection-end-line="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/ssrt_seata_20210128.sql">
+        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-475">
-              <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+            <state relative-caret-position="604">
+              <caret line="76" column="63" selection-start-line="76" selection-start-column="63" selection-end-line="76" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e1864f3d-2e63-47f9-baab-6a10e148ed0e/console.sql">
+        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-job/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker/nacos/conf/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3495">
+              <caret line="233" selection-start-line="233" selection-end-line="233" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker/redis/conf/redis.conf">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/ssrt_cloud_20210908.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-167">
-              <caret line="173" column="64" selection-start-line="173" selection-start-column="59" selection-end-line="173" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/ssrt_config_20220114.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2467">
-              <caret line="12" selection-start-line="12" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/docker/redis/dockerfile">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="95" column="63" selection-start-line="95" selection-start-column="63" selection-end-line="95" selection-end-column="63" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>swagger.fox.version</find>
       <find>com</find>
       <find>org.springframework.boot.context.properties.ConfigurationProperties</find>
-      <find>project.artifactId</find>
       <find>ssrt</find>
       <find>Copyright (c) 2019 ruoyi</find>
       <find>@/utils/ruoyi</find>
@@ -165,6 +201,12 @@
       <find>ssrt-config</find>
       <find>ry-config</find>
       <find>ruoyi</find>
+      <find>minio.version</find>
+      <find>mysql-</find>
+      <find>swagger.fox.version</find>
+      <find>project.artifactId</find>
+      <find>mys</find>
+      <find>mysql</find>
     </findStrings>
     <replaceStrings>
       <replace>Copyright (c) 2022 ssrt</replace>
@@ -194,8 +236,8 @@
       <dir>$PROJECT_DIR$/ssrt-modules/ssrt-file</dir>
       <dir>$PROJECT_DIR$/ssrt-modules</dir>
       <dir>$PROJECT_DIR$/ssrt-modules/ssrt-job</dir>
-      <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/ssrt-ui</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -204,7 +246,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-security/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-log/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-common/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-common/ssrt-common-datascope/pom.xml" />
@@ -223,7 +264,6 @@
         <option value="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/SSRTGatewayApplication.java" />
         <option value="$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/src/main/java/com/ssrt/modules/monitor/RuoYiMonitorApplication.java" />
         <option value="$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/src/main/java/com/ssrt/modules/monitor/SSRTMonitorApplication.java" />
-        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-system/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-auth/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/pom.xml" />
@@ -231,21 +271,16 @@
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/java/com/ssrt/system/domain/vo/MetaVo.java" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/java/com/ssrt/system/RuoYiSystemApplication.java" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/java/com/ssrt/system/SSRTSystemApplication.java" />
-        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-gen/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/vue/v3/readme.txt" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/util/GenUtils.java" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/RuoYiGenApplication.java" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/SSRTGenApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/resources/mapper/job/SysJobMapper.xml" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/RuoYiJobApplication.java" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/SSRTJobApplication.java" />
-        <option value="$PROJECT_DIR$/ssrt-modules/pom.xml" />
-        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-file/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/utils/FileUploadUtils.java" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/RuoYiFileApplication.java" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/SSRTFileApplication.java" />
-        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-job/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/config/ScheduleConfig.java" />
         <option value="$PROJECT_DIR$/ssrt-ui/src/api/system/user.js" />
         <option value="$PROJECT_DIR$/ssrt-ui/README.md" />
@@ -254,6 +289,13 @@
         <option value="$PROJECT_DIR$/sql/ssrt_20210908.sql" />
         <option value="$PROJECT_DIR$/sql/ssrt_quartz.sql" />
         <option value="$PROJECT_DIR$/sql/ssrt_config_20220114.sql" />
+        <option value="$PROJECT_DIR$/ssrt-modules/pom.xml" />
+        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-system/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-file/pom.xml" />
+        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-gen/pom.xml" />
+        <option value="$PROJECT_DIR$/ssrt-modules/ssrt-job/pom.xml" />
+        <option value="$PROJECT_DIR$/docker/nacos/conf/application.properties" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -278,86 +320,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssrt" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssrt" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssrt" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-bootstrap:3.1.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssrt" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-bootstrap:3.1.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter:3.1.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssrt-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssrt-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssrt-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-bootstrap:3.1.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssrt-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-bootstrap:3.1.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter:3.1.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssrt-auth" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssrt-auth" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssrt-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssrt-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssrt-modules" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="ssrt-modules-system" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssrt-visual-monitor" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssrt-visual-monitor" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssrt-visual-monitor" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="ssrt-modules-system" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -365,10 +332,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="108" />
-    <option name="y" value="25" />
+    <option name="x" value="-2384" />
+    <option name="y" value="-119" />
     <option name="width" value="2003" />
-    <option name="height" value="779" />
+    <option name="height" value="1041" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -387,33 +354,33 @@
             <path>
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+              <item name="nacos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+              <item name="nacos" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -433,7 +400,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker/nacos/conf" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -444,15 +411,16 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/logo" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker/nacos/conf" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java" />
       <recent name="$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/resources" />
       <recent name="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/resources" />
-      <recent name="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -473,10 +441,17 @@
     </option>
     <option name="contentProportion" value="0.24525547" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SSRTSystemApplication">
+  <component name="RunManager" selected="Spring Boot.SSRTGatewayApplication">
     <configuration name="SSRTAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ssrt-auth" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ssrt.auth.SSRTAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSRTFileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ssrt-file" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ssrt.file.SSRTFileApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -530,8 +505,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SSRTSystemApplication" />
         <item itemvalue="Spring Boot.SSRTGatewayApplication" />
+        <item itemvalue="Spring Boot.SSRTSystemApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -547,7 +522,7 @@
       <updated>1647430521129</updated>
       <workItem from="1647430522861" duration="30564000" />
       <workItem from="1647523604260" duration="1622000" />
-      <workItem from="1647530539409" duration="4486000" />
+      <workItem from="1647530539409" duration="8949000" />
     </task>
     <task id="LOCAL-00001" summary="#SSRT: Project init">
       <created>1647431036203</created>
@@ -710,14 +685,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647523961992</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="#SSRT: setup Nacos">
+      <created>1647613501923</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1647613501924</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36672000" />
+    <option name="totallyTimeSpent" value="41135000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="108" y="25" width="2003" height="779" extended-state="0" />
+    <frame x="-2384" y="-119" width="2003" height="1041" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2218256" />
@@ -730,7 +712,7 @@
       <window_info id="simpleUML" order="7" weight="0.32962757" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32934782" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5349544" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -744,7 +726,45 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.18541034" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.299339" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.2673913" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.10096889" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Redis Servers" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.015298317" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2218256" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="simpleUML" order="7" weight="0.32962757" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32934782" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5349544" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.18541034" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.2673913" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -756,44 +776,6 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="simpleUML" order="5" />
-      <window_info id="Web" order="6" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.2495831" />
-      <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="4" />
-      <window_info anchor="bottom" id="Java Enterprise" order="5" />
-      <window_info anchor="bottom" id="Database Changes" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run Dashboard" order="8" visible="true" weight="0.299339" />
-      <window_info anchor="bottom" id="Message" order="9" />
-      <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.5349544" />
-      <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="15" />
-      <window_info anchor="right" id="Maven" order="0" visible="true" weight="0.041689828" />
-      <window_info anchor="right" id="Palette" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Redis Servers" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Bean Validation" order="7" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -814,76 +796,10 @@
     <MESSAGE value="#SSRT: add ssrt-file,ssrt-gen,ssrt-job modules" />
     <MESSAGE value="#SSRT: add ssrt-ui mmodule" />
     <MESSAGE value="#SSRT: remove ssrt-ui module from cloud repos" />
-    <option name="LAST_COMMIT_MESSAGE" value="#SSRT: remove ssrt-ui module from cloud repos" />
+    <MESSAGE value="#SSRT: setup Nacos" />
+    <option name="LAST_COMMIT_MESSAGE" value="#SSRT: setup Nacos" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/mapper/generator/GenTableMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/mapper/generator/GenTableColumnMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/java/controller.java.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-400" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/js/api.js.vm">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/vm/vue/v3/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/util/GenUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/SSRTGenApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/controller/GenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-job/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/resources/mapper/job/SysJobMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/task/RyTask.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -901,13 +817,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -930,13 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-job/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/resources/banner.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -951,20 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1031,27 +919,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="260" column="19" selection-start-line="260" selection-start-column="19" selection-end-line="260" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e1864f3d-2e63-47f9-baab-6a10e148ed0e/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/ssrt_seata_20210128.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-475">
-          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/ssrt_quartz.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1062,9 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql/ssrt_config_20220114.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2467">
@@ -1072,11 +950,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docker/mysql/db/readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/mysql/dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/nacos/dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/SSRTGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/ssrt-system.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-datasource/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-344">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-auth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="65" column="56" selection-start-line="65" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="76" column="63" selection-start-line="76" selection-start-column="63" selection-end-line="76" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="95" column="63" selection-start-line="95" selection-start-column="63" selection-end-line="95" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-job/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="71" column="36" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/nacos/conf/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3495">
+          <caret line="233" selection-start-line="233" selection-end-line="233" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/redis/conf/redis.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/redis/dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="564">
-            <caret line="202" selection-start-line="202" selection-end-line="202" />
+          <first_editor relative-caret-position="256">
+            <caret line="177" column="41" lean-forward="true" selection-start-line="177" selection-start-column="41" selection-end-line="177" selection-end-column="41" />
           </first_editor>
           <second_editor />
         </state>
@@ -1143,7 +1126,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ssrt-common-security</last-edited>
+          <last-edited>ssrt-api</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

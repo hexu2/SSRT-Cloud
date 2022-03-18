@@ -16,6 +16,11 @@
         ssrt-modules-gen代码生成
     </description>
 
+
+    <properties>
+        <mysql.version>8.0.11</mysql.version>
+    </properties>
+
     <dependencies>
 
         <!-- SpringCloud Alibaba Nacos -->
@@ -65,6 +70,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
         </dependency>
 
         <!-- ssrt Common Log -->
@@ -87,6 +93,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring-boot-maven.version}</version>
                 <executions>
                     <execution>
                         <goals>

@@ -15,6 +15,11 @@
         ssrt-modules-system系统模块
     </description>
 
+
+    <properties>
+        <mysql.version>8.0.11</mysql.version>
+    </properties>
+
     <dependencies>
 
         <!-- SpringCloud Alibaba Nacos -->
@@ -48,10 +53,11 @@
             <version>${swagger.fox.version}</version>
         </dependency>
 
-        <!-- Mysql Connector -->
+        <!-- mysql driver config-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
         </dependency>
 
         <!-- ssrt Common DataSource -->

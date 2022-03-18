@@ -1,0 +1,15 @@
+# 基础镜像
+FROM  openjdk:8-jre
+# author
+MAINTAINER ssrt
+
+# 挂载目录
+VOLUME /home/ssrt
+# 创建目录
+RUN mkdir -p /home/ssrt
+# 指定路径
+WORKDIR /home/ssrt
+# 复制jar文件到路径
+COPY ./jar/ssrt-modules-job.jar /home/ssrt/ssrt-modules-job.jar
+# 启动定时任务服务
+ENTRYPOINT ["java","-jar","ssrt-modules-job.jar"]

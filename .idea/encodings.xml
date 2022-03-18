@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/docker/mysql/db/readme.txt" charset="UTF-32" />
     <file url="file://$PROJECT_DIR$/ssrt-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssrt-api/ssrt-api-system" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssrt-auth" charset="UTF-8" />
@@ -14,14 +15,12 @@
     <file url="file://$PROJECT_DIR$/ssrt-common/ssrt-common-security" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssrt-common/ssrt-common-swagger" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssrt-gateway" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ssrt-job" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssrt-modules" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssrt-modules/ssrt-file" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssrt-modules/ssrt-job" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssrt-modules/ssrt-system" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssrt-visual" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ssrt-visual/ssrt-monitor" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor" charset="UTF-8" />
   </component>
 </project>
