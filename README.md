@@ -171,6 +171,42 @@ ssrt-modules
         <module>ssrt-file</module>
         
 ## 后端运行
+* step1: Startup Nacos
+~~~
+startup:
+sh /Users/hexu/InstallSofeWare/nacos/bin/startup.sh -m standalone
+
+stop:
+sh /Users/hexu/InstallSofeWare/nacos/bin/shutdown.sh
+
+URL: http://localhost:8848/nacos
+username/password2: ssrt/ssrt
+username/password2: nacos/nacos
+~~~
+
+* step2: Startup ssrt modules (no sequence requirement)
+~~~
+1. ssrt-gateway module - (Required) *
+SSRTGatewayApplication.java
+
+2. ssrt-auth module  - (Required) *
+SSRTAuthApplication.java
+
+3. ssrt-api-system module - (Required) *
+SSRTSystemApplication.java
+
+4. ssrt-visual-monitor module - (Optional)
+SSRTMonitorApplication.java
+
+5. ssrt-job module - (Optional)
+SSRTJobApplication.java
+
+6. ssrt-file module - (Optional)
+SSRTFileApplication.java
+
+7. ssrt-gen module - (Optional)
+SSRTGenApplication.java
+~~~
 
 
 ## Nacos for mac setup steps
