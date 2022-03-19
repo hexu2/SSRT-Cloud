@@ -1936,3 +1936,10 @@ Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refus
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
+19:29:57.313 [http-nio-9201-exec-9] ERROR c.s.s.a.f.RemoteFileFallbackFactory - [create,25] - 文件服务调用失败:[503] during [POST] to [http://ssrt-file/upload] [RemoteFileService#upload(MultipartFile)]: [Load balancer does not contain an instance for the service ssrt-file]
+19:30:11.581 [http-nio-9201-exec-10] ERROR c.s.s.a.f.RemoteFileFallbackFactory - [create,25] - 文件服务调用失败:[503] during [POST] to [http://ssrt-file/upload] [RemoteFileService#upload(MultipartFile)]: [Load balancer does not contain an instance for the service ssrt-file]
+19:30:13.657 [http-nio-9201-exec-5] ERROR c.s.s.a.f.RemoteFileFallbackFactory - [create,25] - 文件服务调用失败:[503] during [POST] to [http://ssrt-file/upload] [RemoteFileService#upload(MultipartFile)]: [Load balancer does not contain an instance for the service ssrt-file]
+19:31:40.210 [http-nio-9201-exec-5] ERROR c.s.s.a.f.RemoteFileFallbackFactory - [create,25] - 文件服务调用失败:[503] during [POST] to [http://ssrt-file/upload] [RemoteFileService#upload(MultipartFile)]: [Load balancer does not contain an instance for the service ssrt-file]
+19:31:43.284 [http-nio-9201-exec-4] ERROR c.s.s.a.f.RemoteFileFallbackFactory - [create,25] - 文件服务调用失败:[503] during [POST] to [http://ssrt-file/upload] [RemoteFileService#upload(MultipartFile)]: [Load balancer does not contain an instance for the service ssrt-file]
+19:31:44.451 [http-nio-9201-exec-7] ERROR c.s.s.a.f.RemoteFileFallbackFactory - [create,25] - 文件服务调用失败:[503] during [POST] to [http://ssrt-file/upload] [RemoteFileService#upload(MultipartFile)]: [Load balancer does not contain an instance for the service ssrt-file]
+19:31:45.610 [http-nio-9201-exec-1] ERROR c.s.s.a.f.RemoteFileFallbackFactory - [create,25] - 文件服务调用失败:[503] during [POST] to [http://ssrt-file/upload] [RemoteFileService#upload(MultipartFile)]: [Load balancer does not contain an instance for the service ssrt-file]

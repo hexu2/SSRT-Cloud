@@ -297,3 +297,7 @@
 16:29:27.300 [nacos-grpc-client-executor-8] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [494fefb3-49ae-4ddb-a3b0-a1ea8ee80481] Ack server push request, request = NotifySubscriberRequest, requestId = 79
 16:29:27.960 [main] INFO  c.s.s.SSRTSystemApplication - [logStarted,61] - Started SSRTSystemApplication in 24.14 seconds (JVM running for 27.106)
 16:29:28.502 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:29:57.822 [nacos-grpc-client-executor-2550] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [494fefb3-49ae-4ddb-a3b0-a1ea8ee80481] Receive server push request, request = NotifySubscriberRequest, requestId = 85
+19:29:57.828 [nacos-grpc-client-executor-2550] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [494fefb3-49ae-4ddb-a3b0-a1ea8ee80481] Ack server push request, request = NotifySubscriberRequest, requestId = 85
+19:31:51.749 [nacos-grpc-client-executor-2586] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [494fefb3-49ae-4ddb-a3b0-a1ea8ee80481] Receive server push request, request = NotifySubscriberRequest, requestId = 88
+19:31:51.770 [nacos-grpc-client-executor-2586] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [494fefb3-49ae-4ddb-a3b0-a1ea8ee80481] Ack server push request, request = NotifySubscriberRequest, requestId = 88
