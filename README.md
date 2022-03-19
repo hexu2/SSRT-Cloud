@@ -171,7 +171,9 @@ ssrt-modules
         <module>ssrt-file</module>
         
 ## 后端运行
-* step1: Startup Nacos
+* step1: Startup mysql8
+
+* step2: Startup Nacos
 ~~~
 startup:
 sh /Users/hexu/InstallSofeWare/nacos/bin/startup.sh -m standalone
@@ -182,6 +184,17 @@ sh /Users/hexu/InstallSofeWare/nacos/bin/shutdown.sh
 URL: http://localhost:8848/nacos
 username/password2: ssrt/ssrt
 username/password2: nacos/nacos
+~~~
+
+* setep3: startup redis
+~~~
+/usr/local/bin/redis/
+
+1) startup redis
+redis-server
+
+2) monitor redis
+redis-cli monitor
 ~~~
 
 * step2: Startup ssrt modules (no sequence requirement)
@@ -209,7 +222,7 @@ SSRTGenApplication.java
 ~~~
 
 
-## Nacos for mac setup steps
+## Nacos setup steps for mac 
 
 * [Nacos websie](https://nacos.io/zh-cn/)
 * [Download stable release version](https://github.com/alibaba/nacos/releases?page=1)
