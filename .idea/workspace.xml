@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8869ae99-1550-4af4-9e60-f9c4e2d2bcfc" name="Default Changelist" comment="#SSRT: update ssrt_config.sql to correct ssrt-system-dev.yml">
+    <list default="true" id="8869ae99-1550-4af4-9e60-f9c4e2d2bcfc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/ssrt-gateway/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/ssrt-gateway/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/ssrt-system/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/ssrt-system/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/ssrt-system/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/ssrt-system/info.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,8 +68,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="270">
-                <caret line="224" column="29" selection-start-line="224" selection-start-column="29" selection-end-line="224" selection-end-column="29" />
+              <first_editor relative-caret-position="255">
+                <caret line="223" lean-forward="true" selection-start-line="223" selection-end-line="223" />
               </first_editor>
               <second_editor />
             </state>
@@ -589,7 +585,7 @@
       <updated>1647430521129</updated>
       <workItem from="1647430522861" duration="30564000" />
       <workItem from="1647523604260" duration="1622000" />
-      <workItem from="1647530539409" duration="14011000" />
+      <workItem from="1647530539409" duration="14291000" />
     </task>
     <task id="LOCAL-00001" summary="#SSRT: Project init">
       <created>1647431036203</created>
@@ -773,17 +769,24 @@
       <option name="project" value="LOCAL" />
       <updated>1647623058094</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="#SSRT: add backend startup steps to README.md">
+      <created>1647678146891</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1647678146891</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46197000" />
+    <option name="totallyTimeSpent" value="46477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21030043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25250357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -842,7 +845,8 @@
     <MESSAGE value="#SSRT: setup Nacos" />
     <MESSAGE value="#SSRT: add mysql8 driver" />
     <MESSAGE value="#SSRT: update ssrt_config.sql to correct ssrt-system-dev.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="#SSRT: update ssrt_config.sql to correct ssrt-system-dev.yml" />
+    <MESSAGE value="#SSRT: add backend startup steps to README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="#SSRT: add backend startup steps to README.md" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/service/FastDfsSysFileServiceImpl.java">
@@ -1125,8 +1129,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="224" column="29" selection-start-line="224" selection-start-column="29" selection-end-line="224" selection-end-column="29" />
+          <first_editor relative-caret-position="255">
+            <caret line="223" lean-forward="true" selection-start-line="223" selection-end-line="223" />
           </first_editor>
           <second_editor />
         </state>
