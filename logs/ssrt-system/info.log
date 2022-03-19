@@ -301,3 +301,9 @@
 19:29:57.828 [nacos-grpc-client-executor-2550] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [494fefb3-49ae-4ddb-a3b0-a1ea8ee80481] Ack server push request, request = NotifySubscriberRequest, requestId = 85
 19:31:51.749 [nacos-grpc-client-executor-2586] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [494fefb3-49ae-4ddb-a3b0-a1ea8ee80481] Receive server push request, request = NotifySubscriberRequest, requestId = 88
 19:31:51.770 [nacos-grpc-client-executor-2586] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [494fefb3-49ae-4ddb-a3b0-a1ea8ee80481] Ack server push request, request = NotifySubscriberRequest, requestId = 88
+19:43:59.023 [nacos-grpc-client-executor-2771] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [494fefb3-49ae-4ddb-a3b0-a1ea8ee80481] Receive server push request, request = NotifySubscriberRequest, requestId = 94
+19:43:59.038 [nacos-grpc-client-executor-2771] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [494fefb3-49ae-4ddb-a3b0-a1ea8ee80481] Ack server push request, request = NotifySubscriberRequest, requestId = 94
+19:44:30.617 [nacos-grpc-client-executor-2778] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [494fefb3-49ae-4ddb-a3b0-a1ea8ee80481] Receive server push request, request = NotifySubscriberRequest, requestId = 98
+19:44:30.626 [nacos-grpc-client-executor-2778] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [494fefb3-49ae-4ddb-a3b0-a1ea8ee80481] Ack server push request, request = NotifySubscriberRequest, requestId = 98
+20:46:11.062 [nacos-grpc-client-executor-3554] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f04a6e62-0994-4ff4-923d-1bb18eb3a246_config-0] Receive server push request, request = ConfigChangeNotifyRequest, requestId = 115
+20:46:11.119 [nacos-grpc-client-executor-3554] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [f04a6e62-0994-4ff4-923d-1bb18eb3a246_config-0] Ack server push request, request = ConfigChangeNotifyRequest, requestId = 115

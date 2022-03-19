@@ -41,7 +41,7 @@ com.ssrt
 │       └── ssrt-job                                 // 定时任务 [9203] Done
 │       └── ssrt-file                                // 文件服务 [9300] Done
 ├── ssrt-visual          // 图形化管理模块 Done        
-│       └── ssrt-visual-monitor                      // 监控中心 [9100] 
+│       └── ssrt-visual-monitor                      // 监控中心 [9100]  http://localhost:9100/login  ssrt/123456
 ├──pom.xml                // 公共依赖
 ~~~
 
