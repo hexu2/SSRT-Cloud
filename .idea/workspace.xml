@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8869ae99-1550-4af4-9e60-f9c4e2d2bcfc" name="Default Changelist" comment="" />
+    <list default="true" id="8869ae99-1550-4af4-9e60-f9c4e2d2bcfc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/copy.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/deploy.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/db/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mysql/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nacos/conf/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nacos/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nginx/conf/nginx.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nginx/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nginx/html/dist/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/redis/conf/redis.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/redis/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/ssrt/auth/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/ssrt/auth/jar/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/ssrt/gateway/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/ssrt/gateway/jar/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/ssrt/modules/file/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/ssrt/modules/file/jar/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/ssrt/modules/gen/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/ssrt/modules/gen/jar/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/ssrt/modules/job/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/ssrt/modules/job/jar/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/ssrt/modules/system/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/ssrt/modules/system/jar/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/ssrt/visual/monitor/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/ssrt/visual/monitor/jar/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/ssrt_config_20220319.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/ssrt_config_20220319.sql" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ssrt-auth/target/" />
@@ -77,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/ssrt_quartz.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="205" column="55" selection-start-line="205" selection-start-column="55" selection-end-line="205" selection-end-column="55" />
+            <state relative-caret-position="15">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -92,11 +121,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/ssrt_cloud_20220319.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="574" column="56" selection-start-line="574" selection-start-column="56" selection-end-line="574" selection-end-column="56" />
+            <state relative-caret-position="223">
+              <caret line="579" column="18" selection-start-line="579" selection-start-column="18" selection-end-line="579" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -119,11 +148,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sql/ssrt_config_20220319.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+            <state relative-caret-position="117">
+              <caret line="46" column="142" selection-start-line="46" selection-start-column="142" selection-end-line="46" selection-end-column="142" />
             </state>
           </provider>
         </entry>
@@ -179,9 +208,9 @@
       <find>ruoyi</find>
       <find>redis</find>
       <find>upload</find>
-      <find>sys_job</find>
       <find>quar</find>
       <find>sys</find>
+      <find>sys_job</find>
     </findStrings>
     <replaceStrings>
       <replace>Copyright (c) 2022 ssrt</replace>
@@ -328,18 +357,17 @@
             <path>
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
               <item name="ssrt-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
               <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ssrt-file" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -481,7 +509,7 @@
       <updated>1647430521129</updated>
       <workItem from="1647430522861" duration="30564000" />
       <workItem from="1647523604260" duration="1622000" />
-      <workItem from="1647530539409" duration="21623000" />
+      <workItem from="1647530539409" duration="22142000" />
     </task>
     <task id="LOCAL-00001" summary="#SSRT: Project init">
       <created>1647431036203</created>
@@ -707,16 +735,31 @@
       <option name="project" value="LOCAL" />
       <updated>1647694342659</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="#SSRT: modify user profile updates config">
+      <created>1647695767900</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1647695767900</updated>
+    </task>
+    <task id="LOCAL-00034" summary="#SSRT: modify user profile updates config">
+      <created>1647696054294</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1647696054294</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53809000" />
+    <option name="totallyTimeSpent" value="54328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5007153" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27181688" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -740,7 +783,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.18541034" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.4473358" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.4473358" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -817,7 +860,8 @@
     <MESSAGE value="#SSRT: modify banner.txt style" />
     <MESSAGE value="#SSRT: correct file upload path" />
     <MESSAGE value="#SSRT: correct nacos ssrt-modules config files" />
-    <option name="LAST_COMMIT_MESSAGE" value="#SSRT: correct nacos ssrt-modules config files" />
+    <MESSAGE value="#SSRT: modify user profile updates config" />
+    <option name="LAST_COMMIT_MESSAGE" value="#SSRT: modify user profile updates config" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ssrt-ui/README.md" />
@@ -1086,13 +1130,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/ssrt_quartz.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="205" column="55" selection-start-line="205" selection-start-column="55" selection-end-line="205" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/SSRTJobApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -1114,13 +1151,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/ssrt_config_20220319.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql/ssrt_seata_20220319.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-676">
@@ -1130,8 +1160,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/ssrt_cloud_20220319.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="574" column="56" selection-start-line="574" selection-start-column="56" selection-end-line="574" selection-end-column="56" />
+        <state relative-caret-position="223">
+          <caret line="579" column="18" selection-start-line="579" selection-start-column="18" selection-end-line="579" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/ssrt_quartz.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/ssrt_config_20220319.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="46" column="142" selection-start-line="46" selection-start-column="142" selection-end-line="46" selection-end-column="142" />
         </state>
       </provider>
     </entry>
