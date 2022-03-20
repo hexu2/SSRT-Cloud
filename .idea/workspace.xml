@@ -2,34 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8869ae99-1550-4af4-9e60-f9c4e2d2bcfc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sql/ssrt-cloud-20220320.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/copy.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/deploy.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/db/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/mysql/dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/nacos/conf/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/nacos/dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/nginx/conf/nginx.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/nginx/dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/nginx/html/dist/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/redis/conf/redis.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/redis/dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/ssrt/auth/dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/ssrt/auth/jar/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/ssrt/gateway/dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/ssrt/gateway/jar/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/ssrt/modules/file/dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/ssrt/modules/file/jar/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/ssrt/modules/gen/dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/ssrt/modules/gen/jar/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/ssrt/modules/job/dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/ssrt/modules/job/jar/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/ssrt/modules/system/dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/ssrt/modules/system/jar/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/ssrt/visual/monitor/dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/ssrt/visual/monitor/jar/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/ssrt_config_20220319.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/ssrt_config_20220319.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/SSRT_Digram.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SSRT_Digram.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ssrt-gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/ssrt-gateway/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ssrt-gateway/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/ssrt-gateway/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ssrt-system/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/ssrt-system/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/ssrt_cloud_20220319.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssrt-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssrt-auth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssrt-auth/src/main/java/com/ssrt/auth/SSRTAuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssrt-auth/src/main/java/com/ssrt/auth/SSRTAuthApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssrt-auth/target/classes/com/ssrt/auth/SSRTAuthApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ssrt-auth/target/classes/com/ssrt/auth/SSRTAuthApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssrt-modules/ssrt-system/target/classes/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ssrt-modules/ssrt-system/target/classes/banner.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,96 +76,80 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="228">
-                <caret line="39" column="66" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="66" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/SSRTFileApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/ssrt_quartz.sql">
+        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="179">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-job/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ssrt-gateway/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="55" column="17" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="17" />
+            <state relative-caret-position="123">
+              <caret line="74" selection-start-line="74" selection-end-line="84" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/ssrt_cloud_20220319.sql">
+        <entry file="file://$PROJECT_DIR$/ssrt-auth/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="579" column="18" selection-start-line="579" selection-start-column="18" selection-end-line="579" selection-end-column="18" />
+            <state relative-caret-position="88">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/java/com/ssrt/job/SSRTJobApplication.java">
+        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/service/FastDfsSysFileServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="139">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-gen/src/main/java/com/ssrt/gen/SSRTGenApplication.java">
+        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/config/MinioConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="139">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="80" selection-start-line="80" selection-end-line="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssrt-auth/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sql/ssrt_config_20220319.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="46" column="142" selection-start-line="46" selection-start-column="142" selection-end-line="46" selection-end-column="142" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/ssrt_seata_20220319.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-676">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/java/com/ssrt/system/SSRTSystemApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/src/main/java/com/ssrt/modules/monitor/SSRTMonitorApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/sql/ssrt-cloud-20220320.sql">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -205,12 +173,13 @@
       <find>mys</find>
       <find>mysql</find>
       <find>ssrt</find>
-      <find>ruoyi</find>
       <find>redis</find>
-      <find>upload</find>
       <find>quar</find>
       <find>sys</find>
       <find>sys_job</find>
+      <find>upload</find>
+      <find>ruoyi</find>
+      <find>swagge</find>
     </findStrings>
     <replaceStrings>
       <replace>Copyright (c) 2022 ssrt</replace>
@@ -251,8 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ssrt-gateway/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/config/properties/XssProperties.java" />
         <option value="$PROJECT_DIR$/ssrt-gateway/src/main/java/com/ssrt/gateway/RuoYiGatewayApplication.java" />
         <option value="$PROJECT_DIR$/logs/ssrt-gateway/info.log" />
         <option value="$PROJECT_DIR$/ssrt-visual/pom.xml" />
@@ -262,7 +229,6 @@
         <option value="$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/src/main/java/com/ssrt/modules/monitor/RuoYiMonitorApplication.java" />
         <option value="$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/src/main/java/com/ssrt/modules/monitor/SSRTMonitorApplication.java" />
         <option value="$PROJECT_DIR$/ssrt-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/ssrt-auth/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/pom.xml" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/java/com/ssrt/system/domain/vo/MetaVo.java" />
@@ -299,9 +265,12 @@
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/resources/banner.txt" />
         <option value="$PROJECT_DIR$/ssrt-modules/ssrt-system/src/main/resources/banner.txt" />
         <option value="$PROJECT_DIR$/ssrt-visual/ssrt-visual-monitor/src/main/resources/banner.txt" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/sql/ssrt_quartz.sql" />
         <option value="$PROJECT_DIR$/sql/ssrt_config_20220319.sql" />
+        <option value="$PROJECT_DIR$/sql/ssrt_cloud_20220319.sql" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/ssrt-auth/src/main/java/com/ssrt/auth/SSRTAuthApplication.java" />
+        <option value="$PROJECT_DIR$/ssrt-auth/pom.xml" />
       </list>
     </option>
   </component>
@@ -362,12 +331,28 @@
             <path>
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
               <item name="ssrt-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
               <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSRT-Cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSRT-Cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ssrt-system" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -428,7 +413,7 @@
     </option>
     <option name="contentProportion" value="0.29343066" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SSRTMonitorApplication">
+  <component name="RunManager" selected="Spring Boot.SSRTAuthApplication">
     <configuration name="SSRTAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ssrt-auth" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ssrt.auth.SSRTAuthApplication" />
@@ -492,8 +477,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SSRTSystemApplication" />
         <item itemvalue="Spring Boot.SSRTGatewayApplication" />
+        <item itemvalue="Spring Boot.SSRTSystemApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -509,7 +494,7 @@
       <updated>1647430521129</updated>
       <workItem from="1647430522861" duration="30564000" />
       <workItem from="1647523604260" duration="1622000" />
-      <workItem from="1647530539409" duration="22142000" />
+      <workItem from="1647530539409" duration="28160000" />
     </task>
     <task id="LOCAL-00001" summary="#SSRT: Project init">
       <created>1647431036203</created>
@@ -749,11 +734,18 @@
       <option name="project" value="LOCAL" />
       <updated>1647696054294</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="#SSRT: modify user profile updates config">
+      <created>1647696243683</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1647696243683</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54328000" />
+    <option name="totallyTimeSpent" value="60346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -783,7 +775,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.18541034" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.4473358" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.44981414" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -796,44 +788,6 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25250357" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="simpleUML" order="7" weight="0.32962757" />
-      <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32934782" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5349544" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.18541034" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.54275095" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.1416309" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Redis Servers" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.015298317" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -864,31 +818,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="#SSRT: modify user profile updates config" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ssrt-ui/README.md" />
-    <entry file="file://$PROJECT_DIR$/ssrt-ui/src/api/menu.js" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e1864f3d-2e63-47f9-baab-6a10e148ed0e/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-gateway/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/ssrt-system.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-common/ssrt-common-datasource/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-344">
@@ -900,13 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-146">
           <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-auth/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="65" column="56" selection-start-line="65" selection-end-line="66" />
         </state>
       </provider>
     </entry>
@@ -962,13 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="57" column="26" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1073,27 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-auth/src/main/java/com/ssrt/auth/SSRTAuthApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/SSRTFileApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="46" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-job/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-812" />
@@ -1110,16 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="228">
-            <caret line="39" column="66" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="66" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1151,33 +1035,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/ssrt_seata_20220319.sql">
+    <entry file="file://$PROJECT_DIR$/sql/ssrt_config_20220319.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-676">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/ssrt_cloud_20220319.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="579" column="18" selection-start-line="579" selection-start-column="18" selection-end-line="579" selection-end-column="18" />
+        <state relative-caret-position="-2693">
+          <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql/ssrt_quartz.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="-296">
+          <caret line="190" column="22" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/ssrt_config_20220319.sql">
+    <entry file="file://$PROJECT_DIR$/sql/ssrt_seata_20220319.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="46" column="142" selection-start-line="46" selection-start-column="142" selection-end-line="46" selection-end-column="142" />
+        <state relative-caret-position="-599">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="393">
+            <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-auth/src/main/java/com/ssrt/auth/SSRTAuthApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/controller/SysFileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/service/FastDfsSysFileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/config/MinioConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/java/com/ssrt/file/SSRTFileApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-auth/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-file/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-modules/ssrt-system/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="80" selection-start-line="80" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="74" selection-start-line="74" selection-end-line="84" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssrt-auth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/ssrt_cloud_20220319.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="350" column="47" lean-forward="true" selection-start-line="350" selection-start-column="47" selection-end-line="350" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/ssrt-cloud-20220320.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -1240,7 +1214,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ssrt-api</last-edited>
+          <last-edited>ssrt-auth</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

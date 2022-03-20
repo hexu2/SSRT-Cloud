@@ -1,5 +1,6 @@
 package com.ssrt.auth;
 
+import com.ssrt.common.swagger.annotation.EnableCustomSwagger2;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
@@ -10,6 +11,7 @@ import com.ssrt.common.security.annotation.EnableRyFeignClients;
  * 
  * @author ssrt
  */
+@EnableCustomSwagger2
 @EnableRyFeignClients
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
 public class SSRTAuthApplication
